@@ -1,0 +1,26 @@
+{{#extend "layout"}}
+
+{{#content "title"}}
+<title>ページ2です。</title>
+{{/content}}
+
+{{#content "css" mode="append"}}
+<link rel="stylesheet" href="/common/css/page2.css">
+{{/content}}
+
+{{#content "js" mode="prepend"}}
+<script src="/common/js/lib/modernizr.custom.js"></script>
+{{/content}}
+
+{{#content "js" mode="append"}}
+<script src="/common/js/jquery.my-plugin.min.js"></script>
+{{/content}}
+
+{{#content "body"}}
+<h1>ページ2です。</h1>
+<p>
+  このページは、ページ2です。<br>
+</p>
+{{/content}}
+
+{{/extend}}

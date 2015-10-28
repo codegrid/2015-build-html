@@ -1,0 +1,21 @@
+<h1><%- @sitename %></h1>
+
+<p>姓は<b><%- @author.lastName %></b>、名は<b><%- @author.firstName %></b>です。</p>
+
+<ul>
+<% for value in @list : %>
+  <li><%- value %></li>
+<% end %>
+</ul>
+
+<ul>
+<% for value,idx in @list : %>
+  <li>(<%- idx+1 %>)<%- value %></li>
+<% end %>
+</ul>
+
+<ul>
+<% for value,idx in @list : %>
+  <li>(<%- idx+1 %>)<%- value %></li>
+<% end %>
+</ul>

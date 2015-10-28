@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "gulp html"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-hb": "^2.6.5",
+    "gulp-rename": "^1.2.2",
+    "handlebars-layouts": "^3.1.2"
+  }
+}

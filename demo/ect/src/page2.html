@@ -1,0 +1,16 @@
+<% extend 'layout/common-2' %>
+<% block 'title' : %>ページ2のタイトル<% end %>
+
+<% block 'css:prepend' : %>
+<link rel="stylesheet" href="/common/css/page2.css">
+<% end %>
+
+<% block 'js:prepend' : %>
+<script src="/common/js/lib/modernizr.custom.js"></script>
+<% end %>
+
+<% block 'js:append' : %>
+<script src="/common/js/jquery.my-plugin.min.js"></script>
+<% end %>
+
+<div>ページ2です。</div>

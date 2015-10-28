@@ -1,0 +1,9 @@
+<h1>{{ sitename }}</h1>
+
+<p>姓は<b>{{ author.lastName }}</b>、名は<b>{{ author.firstName }}</b>です。</p>
+
+<ul>
+{{#each list}}
+  <li>{{this}}</li>
+{{/each}}
+</ul>
