@@ -1,0 +1,20 @@
+h1= sitename
+
+p
+  | 姓は
+  b= author.firstName
+  | 名は
+  b= author.lastName
+  | です
+
+ul
+  each value in list
+    li= value
+
+ul
+  each value, idx in list
+    li (#{idx+1})#{value}
+
+ul
+  each value, idx in list
+    li= '('+ (idx+1) +')'+value

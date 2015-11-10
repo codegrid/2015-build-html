@@ -1,0 +1,13 @@
+extends ./layout/common.jade
+block vars
+  - viewport = 900
+  - categoryTitle = "Article Title"
+
+block append js
+  script(src="/common/js/lib/jquery.my.plugin.js")
+
+block body
+  h1 My Article
+
+block prepend footer
+  p フッターの前に挿入する

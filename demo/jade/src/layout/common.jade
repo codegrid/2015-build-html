@@ -1,0 +1,19 @@
+doctype html
+block vars
+html.no-js(lang="ja")
+  head
+    include ../include/meta.jade
+    block css
+      link(rel="stylesheet", href="/common/css/style.min.css")
+    block js
+      script(src="/common/js/lib/jquery-2.1.4.min.js")
+    if categoryTitle
+      title #{categoryTitle} - #{sitename}
+    else
+      title= sitename
+  body
+    block header
+      include ../include/header.jade
+    block body
+    block footer
+      include ../include/footer.jade
